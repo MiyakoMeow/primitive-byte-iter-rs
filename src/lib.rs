@@ -1,7 +1,9 @@
+#![no_std]
+
 pub mod impl_be;
+pub mod impl_default;
 pub mod impl_le;
 pub mod impl_ne;
-pub mod impl_default;
 
 pub struct ByteIter<'a, T: Iterator<Item = &'a u8>> {
     inner: T,
@@ -36,7 +38,6 @@ impl<'a, T: Iterator<Item = &'a u8>> ByteIter<'a, T> {
         Some(values[0] != u8::from(false))
     }
 }
-
 
 impl<'a, T: Iterator<Item = &'a u8>> Iterator for ByteIter<'a, T> {
     type Item = &'a u8;
