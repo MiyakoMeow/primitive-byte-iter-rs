@@ -3,5 +3,17 @@ name = "primitive-byte-iter"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["MiyakoMeow"]
+description = "An Iterator which can load primitive types and glam types from bytes."
+documentation = "https://docs.rs/primitive-byte-iter"
+license = "MIT OR Apache-2.0"
+
+keywords = ["iter", "byte", "num", "glam", "types"]
+categories = ["data-structures", "development-tools", "encoding", "no-std", "value-formatting"]
+
+homepage = "https://github.com/MiyakoMeow/primitive-byte-iter-rs"
+repository = "https://github.com/MiyakoMeow/primitive-byte-iter-rs"
+readme = "README.md"
+
 [dependencies]
 glam = { version = "0.27.0", default-features = false, features = ["libm"] }
