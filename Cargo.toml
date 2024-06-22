@@ -15,5 +15,7 @@ homepage = "https://github.com/MiyakoMeow/primitive-byte-iter-rs"
 repository = "https://github.com/MiyakoMeow/primitive-byte-iter-rs"
 readme = "README.md"
 
-[dependencies]
-glam = { version = "0.27.0", default-features = false, features = ["libm"] }
+[dependencies.glam]
+version = "0.28.0"
+default-features = false
+features = ["libm"]
