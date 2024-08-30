@@ -1,6 +1,6 @@
 [package]
 name = "primitive-byte-iter"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 authors = ["MiyakoMeow"]
@@ -16,6 +16,6 @@ repository = "https://github.com/MiyakoMeow/primitive-byte-iter-rs"
 readme = "README.md"
 
 [dependencies.glam]
-version = "0.28.0"
+version = ">=0.28.0"
 default-features = false
 features = ["libm"]
